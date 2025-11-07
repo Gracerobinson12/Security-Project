@@ -39,7 +39,7 @@ def main():
 
     print(f"Saving Task-3 CSV to {output_path} ...")
     subset_df.to_csv(output_path, index=False)
-    print("✅ Done. CSV successfully generated.")
+    print("Done. CSV successfully generated.")
 
 
 if __name__ == "__main__":
